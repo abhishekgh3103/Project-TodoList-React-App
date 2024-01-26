@@ -1,0 +1,15 @@
+.item{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.itemName {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.line {
+    width: 500px;
+    border: 1px solid rgba(135, 135, 135, 0.3);
+}
