@@ -1,5 +1,4 @@
 import { useState } from "react";
-import TodoItem from "./TodoItem";
 import Form from "./Form";
 import TodoList from "./TodoList";
 
