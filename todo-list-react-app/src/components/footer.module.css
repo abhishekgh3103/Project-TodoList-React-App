@@ -1,0 +1,14 @@
+.footerDiv {
+    background-color: yellowgreen;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.footerItem{
+    font-size: large;
+    font-weight: bold;
+}
