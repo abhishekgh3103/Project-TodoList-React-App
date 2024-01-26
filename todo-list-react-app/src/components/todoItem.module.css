@@ -1,12 +1,28 @@
 .item{
     width: 500px;
     margin: 0 auto;
+    padding: 20px;
 }
 
+.itemContainer{
+    display: flex;
+    align-items: center;
+}
 .itemName {
-    padding: 20px;
     font-size: 20px;
     font-weight: bold;
+    flex: 3;
+}
+
+.itemButton {
+    border: none;
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 50px;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 .line {
