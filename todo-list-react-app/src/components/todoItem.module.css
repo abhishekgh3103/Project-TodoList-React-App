@@ -14,6 +14,10 @@
     flex: 3;
 }
 
+.completed {
+    text-decoration: line-through;
+}
+
 .itemButton {
     border: none;
     background-color: yellowgreen;

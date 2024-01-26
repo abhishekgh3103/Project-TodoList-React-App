@@ -2,11 +2,11 @@ import styles from "./form.module.css"
 import { useState } from "react";
 
 export default function Form({todos,setTodos}) {
-    const [todo, setTodo] = useState("");
+    const [todo, setTodo] = useState({name:"", done: false});
     function handleClick(e) {
         e.preventDefault();
         setTodos([...todos, todo]);
-        setTodo("");
+        setTodo({name:"", done: false});
     }
     return (
         <form 
@@ -16,8 +16,8 @@ export default function Form({todos,setTodos}) {
                 className={styles.inputForm}
                 type="text"
                 placeholder="Enter Todo item here..." 
-                value={todo}
-                onChange={(e) => setTodo(e.target.value)}
+                value={todo.name}
+                onChange={(e) => setTodo({name:e.target.value, done: false})}
                 />
                 <button
                 className={styles.buttonForm}
